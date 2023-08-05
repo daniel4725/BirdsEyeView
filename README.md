@@ -36,7 +36,7 @@ object detection and tracking.
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/722a9958-ed0f-4aa3-b0da-2e7f3b5f03de)
 
-## Results
+# Results
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/210924f5-e0a6-4b7e-a4fd-c23451aaf53f)
 
