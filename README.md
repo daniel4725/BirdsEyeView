@@ -10,7 +10,7 @@ where the private driver uses the overhead view in tasks such as parking, naviga
 Another application is remote-operated machines in worksites, where the operator operates a machine from a distance using a camera’s feed thus removing
 the risks involved in operating such a machine on site. Cameras positioned
 around the site are used in the composition of a bird’s eye view of the site.
-This global view will serve as a virtual map used to help the operator adequately specify the commands to be sent to the vehicle under his control [2].
+This global view will serve as a virtual map used to help the operator adequately specify the commands to be sent to the vehicle under his control.
 Additionally, an overhead view provides a better understanding of the scene
 geometry, and measurements can be taken directly from the image. Hence, it
 can be used as a pre-processing step for many other computer vision tasks like
