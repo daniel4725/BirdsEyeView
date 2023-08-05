@@ -18,12 +18,20 @@ object detection and tracking.
 
 # Method
 ## Step A: Detecting vanishing point
+We employ a combination of techniques, including the Canny edge detector, Hough transform for line detection, and RANSAC for fitting the vanishing point.
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/befc9a32-e857-4dc7-a9c1-2806f525f3d7)
 
 ## Step B: Calculating and applying the homography
+Utilizing the vanishing point and incorporating certain assumptions, we devised a homography to perform the transformation of the image into an overhead perspective.
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/8ae18468-7a19-4704-b36c-2ac1ff69fe8d)
+
+![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/a3e61bf8-9a15-42d4-8287-7a7b6b8468df)
+
+.
+.
+.
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/df1781b1-dc27-4804-a6e2-095713141998)
 
@@ -33,6 +41,7 @@ object detection and tracking.
 
 
 ## Step C: Stitching
+By employing SIFT to match features and RANSAC to estimate the transformation between the images, we effectively applied this transformation and stitched them together seamlessly. 
 
 ![image](https://github.com/daniel4725/BirdsEyeView/assets/95569050/722a9958-ed0f-4aa3-b0da-2e7f3b5f03de)
 
