@@ -1,4 +1,4 @@
-Introducing here a small taste of the project. For more detailed information see the report.pdf file
+Welcome to our project repository! Here, we provide a brief overview of the project highlights. For a comprehensive understanding, please refer to the report.pdf file.
 
 # Birds Eye View
 
